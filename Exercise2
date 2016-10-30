@@ -54,10 +54,10 @@ import matplotlib.pyplot as plt
 
 from sklearn.linear_model import LinearRegression
 
-meanSquaredError = [0] *9
-meanSquaredErrorE = [0] *9
+meanSquaredError = [0] *10
+meanSquaredErrorE = [0] *10
 
-for i in range(0,9):
+for i in range(0,10):
 
 	x_train = np.load("regression_Xtrain.npy")
 
